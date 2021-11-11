@@ -5,3 +5,5 @@ git add -> Adiciona todos os arquivos no repositório
 git commit -m "comentario do commit" -> Faz um commit
 git checkout -b -> nomeDaBranch -> Troca de branch criando
 git merge nomeDaBranck -> Subir a ramificação (branch) para a master (producao)
+git remote add origin -> Trata de respositórios em nuvem
+git push -u origin main -> empurrar nossa branch para o Gitub

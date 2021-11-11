@@ -33,11 +33,11 @@
 //METODOS DE ARRAY 2
 let nomes = ["luiz", "alvaro", "patricia", "marcelo", "Patrick"];
 
-//let novoArray = nomes.map( (nome) => {
-  //  return "Olá " + nome;
-//})
+let novoArray = nomes.map( (nome) => {
+    return "Olá " + nome;
+})
 
-//console.log(novoArray);
+console.log(novoArray);
 
 //nomes.forEach((nome) => {
   //  console.log(nome);
@@ -52,6 +52,6 @@ let nomes = ["luiz", "alvaro", "patricia", "marcelo", "Patrick"];
 
 //console.log(dataAgora);
 
-const dataNascimento = new Date(1985, 9, 23);
+//const dataNascimento = new Date(1985, 9, 23);
 
-console.log(dataNascimento);
+//console.log(dataNascimento);

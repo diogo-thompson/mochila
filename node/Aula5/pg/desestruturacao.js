@@ -12,3 +12,5 @@ let listaCompras = ["pão", "queijo", "presunto"];
 let [item1, item2, item3] = listaCompras;
 
 console.log(item2);
+  
+  console.log(listaCompras.map(lista => lista.length));
