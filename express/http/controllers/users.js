@@ -11,7 +11,7 @@ function trazerDados(req, res) {
             id: 154,
             nome: 'Guilherme',
             email: 'guilherme@gmail.com',
-                enha: '123'
+            senha: '123'
         }
     ])
     //controller
@@ -36,9 +36,14 @@ function deletarDados(req, res) {
     res.send('Registro deletado.')
 }
 
+function uploadArquivo(req, res) {
+    res.send('Upload realizado com sucesso!')
+}
+
 module.exports = {
     trazerDados,
     inserirDados,
     alterarDados,
-    deletarDados
+    deletarDados,
+    uploadArquivo
 }
