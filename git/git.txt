@@ -1,9 +1,10 @@
 COMANDOS DO GIT
 
 git init -> Inicia um repositório
-git add -> Adiciona todos os arquivos no repositório
+git add . -> Adiciona todos os arquivos no repositório
 git commit -m "comentario do commit" -> Faz um commit
 git checkout -b -> nomeDaBranch -> Troca de branch criando
 git merge nomeDaBranck -> Subir a ramificação (branch) para a master (producao)
 git remote add origin -> Trata de respositórios em nuvem
 git push -u origin main -> empurrar nossa branch para o Gitub
+git pull -u origin main -> sincronizar com as alterações do git de outros

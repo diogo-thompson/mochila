@@ -15,7 +15,7 @@ router.put('/alterar/:id', alterarDados);
 
 router.delete('/deletar/:id', deletarDados);
 
-router.post('/upload-one', upload.single('arquivo', 2), uploadArquivo);
+router.post('/upload-one', upload.single('arquivo'), uploadArquivo);
 
 router.post('/upload-two', upload.array('arquivo', 2), uploadArquivo);
 
