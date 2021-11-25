@@ -1,9 +1,14 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET product page. */
-router.get('/', function(req, res, next) {
-  res.send('response products');
-});
+var { returnText, inputText } = require('../controllers/products')
+var { middlewaresSecurity } = require('../middlewares/security')
+
+/* GET products page. */
+router.get('/', returnText);
+
+router.get('/returnText2', middlewaresSecurity, returnText);
+
+router.post('/inputText', inputText);
 
 module.exports = router;
