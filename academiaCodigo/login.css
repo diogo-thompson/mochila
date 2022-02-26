@@ -28,13 +28,13 @@ img {
 .navbar nav a {
     margin-left: 20px;
     margin: 1px;
+    color: #b4b4b4;
 }
 
 /* Link */
 a {
     text-decoration: none;
     margin: 0 0 0 0;
-    color: #b4b4b4;
     padding: 8px;
 }
 
@@ -49,10 +49,66 @@ a {
 }
 
 /* Seção */
+.main-page{
+    display: flex;
+}
+.main-page .form-container{
+    margin: auto;
+}
 
+.main-page .form-container form{
+    max-width: 400px;
+    background-color: #b4b4b4;
+    margin: 20px;
+    padding: 50px;
+}
 
+.main-page .form-container form h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
 
+.main-page .form-container .field {
+    margin-bottom: 25px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
+.main-page .form-container .field input {
+    border: 2px solid black;
+    outline: none;
+    padding: 10px;
+    width: 80%;
+    margin-top: 2px;
+}
+
+.main-page .form-container button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.main-page .form-container .redefine-senha{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-page .form-container .redefine-senha a{
+    color: black;
+    font-size: small;
+}
+
+.main-page .form-container .redefine-senha a:hover{
+    color: white;
+}
 
 /* Rodapé */
 footer {
