@@ -1,0 +1,160 @@
+/* Estilização geral (Envolve todos os componentes) */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+/* Todas as imagens */
+img {
+    max-width: 100%;
+}
+
+/* Navegação */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b4b4b4;
+}
+
+.navbar img {
+    width: 80px;
+    cursor: pointer;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    margin: 1px;
+}
+
+/* Link */
+a {
+    text-decoration: none;
+    margin: 0 0 0 0;
+    color: #b4b4b4;
+    padding: 8px;
+}
+
+.navbar nav a:link {
+    background-color: black;
+    font-weight: bold;
+}
+
+.navbar nav a:hover {
+    color: white;
+    background-color: black;
+}
+
+/* Seção 1 */
+
+.index-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
+    margin-top: 30px;
+}
+
+.index-section .foto-promocao{
+    width: 43%;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.index-section .promocao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 250px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.index-section .pap {
+    margin-bottom: 20px;
+    background-color: #b4b4b4;
+    width: auto;
+    padding: 10px;
+    font-size: large;
+}
+
+.index-section .ppm {
+    margin-bottom: 10px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+ .index-section .npm {
+    margin-bottom: 30px;
+    font-size: large;
+}
+
+.index-section .ca button{
+    margin-bottom: 10px;
+    font-size: large;
+    background-color: #b4b4b4;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.index-section .ca button:hover{
+    color: white;
+    background-color: black;
+}
+
+.index-section .cc {    
+    font-size: x-small;
+}
+
+
+
+/* Rodapé */
+footer {
+    display: flex;
+    padding: 20px;
+    background-color: #b4b4b4;
+}
+
+footer .dev {
+    width: 50%;
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+footer .endereco {
+    width: 50%;
+    text-align: end;
+    margin-right: 30px;
+}
+
+/* Ajustando demais dispositivos */
+@media(max-width: 700px) {
+    .first-section {
+        flex-direction: column;
+    }
+
+    .first-section .foto-promocao {
+        width: 100%;
+    }
+
+    .first-section .promocao{
+        width: 100%;
+    }
+
+    .main-page .form-container form {
+        width: 100%;
+    }
+}
+
+@media(max-width: 350px) {
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+    }
+}

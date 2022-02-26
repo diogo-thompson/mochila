@@ -8,3 +8,8 @@ git merge nomeDaBranck -> Subir a ramificação (branch) para a master (producao
 git remote add origin -> Trata de respositórios em nuvem
 git push -u origin main -> empurrar nossa branch para o Gitub
 git pull -u origin main -> sincronizar com as alterações do git de outros
+
+.gitignore
+
+node_modules
+package-lock.json
