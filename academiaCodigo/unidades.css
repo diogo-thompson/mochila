@@ -28,13 +28,13 @@ img {
 .navbar nav a {
     margin-left: 20px;
     margin: 1px;
+    color: #b4b4b4;
 }
 
 /* Link */
 a {
     text-decoration: none;
     margin: 0 0 0 0;
-    color: #b4b4b4;
     padding: 8px;
 }
 
@@ -49,6 +49,25 @@ a {
 }
 
 /* Seção */
+.titulo h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.mapas {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.mapas h2 {
+    margin-bottom: 10px;
+}
 
 
 
@@ -76,19 +95,15 @@ footer .endereco {
 
 /* Ajustando demais dispositivos */
 @media(max-width: 700px) {
-    .first-section {
+    .main-page {
         flex-direction: column;
     }
 
-    .first-section .foto-promocao {
+    .main-page .titulo {
         width: 100%;
     }
 
-    .first-section .promocao{
-        width: 100%;
-    }
-
-    .main-page .form-container form {
+    .main-page .mapas{
         width: 100%;
     }
 }
