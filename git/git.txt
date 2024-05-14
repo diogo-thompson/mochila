@@ -5,4 +5,4 @@ COMANDOS DO GIT
 - git add . => adiciona todos os arquivos no repositório
 - git commit -m "texto aqui" => faz um commit
 - git checkout -b nomeDaBranch => Troca de branch criando
--
+- git chekout nomeDaBranch => Troca de branch sem criar
