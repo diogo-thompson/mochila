@@ -7,3 +7,6 @@ COMANDOS DO GIT
 - git checkout -b nomeDaBranch => troca de branch criando
 - git chekout nomeDaBranch => troca de branch sem criar
 - git merge nomeDaBranch => junta a branch com a master (main)
+- git remote => trata de repositórios em nuvem
+- git branch -M main => renomear a branch de master para main
+- git push -u origin main => empurrar nossa branch local para o reporitório remoto (Github).
