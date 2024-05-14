@@ -4,5 +4,6 @@ COMANDOS DO GIT
 - git status => mostra arquivos alterados para "commitar"
 - git add . => adiciona todos os arquivos no repositório
 - git commit -m "comentário da branch aqui" => faz um commit
-- git checkout -b nomeDaBranch => Troca de branch criando
-- git chekout nomeDaBranch => Troca de branch sem criar
+- git checkout -b nomeDaBranch => troca de branch criando
+- git chekout nomeDaBranch => troca de branch sem criar
+- git merge nomeDaBranch => junta a branch com a master (main)
