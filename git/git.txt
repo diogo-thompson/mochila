@@ -3,6 +3,6 @@ COMANDOS DO GIT
 - git init => inicia um repositório
 - git status => mostra arquivos alterados para "commitar"
 - git add . => adiciona todos os arquivos no repositório
-- git commit -m "comentário aqui" => faz um commit
+- git commit -m "comentário da branch aqui" => faz um commit
 - git checkout -b nomeDaBranch => Troca de branch criando
 - git chekout nomeDaBranch => Troca de branch sem criar
