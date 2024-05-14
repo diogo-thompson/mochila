@@ -1,3 +1,6 @@
 COMANDOS DO GIT
 
 - git init => inicia um repositório
+- git status => mostra arquivos alterados para "commitar"
+- git add . => adiciona todos os arquivos no repositório
+- git commit -m "texto aqui" => faz um commit
